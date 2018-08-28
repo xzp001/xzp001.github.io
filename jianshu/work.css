@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /*height: 3000px;*/
+    /*position: relative;*/
+}
+ul,ol{
+    list-style: none;
+}
+b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+input{
+    outline: none;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clearfix{zoom: 1;}
+.w749{
+    width: 749px;
+    margin: 0 auto;
+}
+.sidebar{
+    width: 45px;
+    height: 638px;
+    background: #2a2a2a;
+    position: fixed;
+
+}
+.webname{
+    width: 45px;
+    height: 45px;
+    background: #e78270;
+}
+.webname span{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font: 18px 'microsoft yahei';
+}
+.webname .list1{
+    width: 45px;
+    height: 45px;
+    padding-top: 27px;
+}
+.webname .list1 i{
+    width: 17px;
+    height: 14px;
+    display: block;
+    background: url("images/icon.png");
+    background-position: -2px -37px;
+    margin: 0 auto ;
+
+}
+.webname .list2{
+    width: 45px;
+    height: 45px;
+
+}
+.webname .list2 i {
+    width: 13px;
+    height: 20px;
+    display: block;
+    background: url("images/icon.png");
+    background-position: -3px -55px;
+    margin: 0 auto ;
+}
+.webname .list3{
+    width: 45px;
+    height: 30px;
+    padding-top: 420px;
+}
+.webname .list3 i {
+    width: 18px;
+    height: 20px;
+    display: block;
+    background: url("images/icon.png");
+    background-position: -2px -17px;
+    margin: 0 auto ;
+}
+.webname .list4{
+    width: 45px;
+    height: 30px;
+    padding-top: 5px;
+}
+.webname .list4 i {
+    width: 15px;
+    height: 14px;
+    display: block;
+    background: url("images/icon.png");
+    background-position: -2px 0;
+    margin: 0 auto ;
+}
+.leftpic{
+    width: 337px;
+    height: 638px;
+    background-image: url("images/left.jpg");
+    background-size: 100%;
+    background-position: 0 -103px;
+    margin: -45px 0 0 45px;
+    /*position: fixed;*/
+}
+
+.leftpic .list1{
+    padding: 415px 0 0 30px;
+    color: white;
+    font: 40px 'microsoft yahei';
+    font-weight: 600;
+}
+.leftpic .list2{
+    padding: 10px 0 0 30px;
+    color: white;
+    font: 25px 'microsoft yahei';
+    font-weight: bolder;
+}
+.leftpic .list3{
+    padding: 15px 0 0 30px;
+    color: white;
+    font: 14px 'microsoft yahei';
+    /*font-weight: bolder;*/
+}
+.leftpic .write{
+    padding: 19px 0 0 30px;
+    position: relative;
+}
+.leftpic .write .list4{
+    width: 116px;
+    height: 44px;
+    font: 16px 'microsoft yahei';
+
+    padding-left: 35px;
+    background: #49be39;
+    border-radius: 4px;
+    border: none;
+
+}
+.leftpic .write input::-webkit-input-placeholder {
+    color: white;
+}
+.leftpic .write i{
+    width: 22px;
+    height: 40px;
+    background: url("images/sprite1.png") no-repeat -244px -62px;
+    transform: scale(0.5);
+    position: absolute;
+    top: 20px;
+    left: 43px;
+}
+.header{
+    height: 50px;
+    position: absolute;
+}
+.header ul{
+    float: left;
+}
+.header .find{
+    float: left;
+    padding-left: 418px;
+    font: 12px microsoft yahei;
+    line-height: 50px;
+}
+.header .choice{
+    float: left;
+    padding-left: 30px;
+    font: 12px microsoft yahei;
+    color: #9aa2ad;
+    line-height: 50px;
+}
+.header .search{
+    float: left;
+    padding: 10px 0 0 422px;
+    position: relative;
+}
+.header input{
+    width: 170px;
+    height: 27px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font: 13px microsoft yahei;
+    color: #9aa2ad;
+    border: 1px solid #d9d9d9;
+
+}
+.header .search i{
+    width: 13px;
+    height: 12px;
+    background: url("images/icon2.png") no-repeat ;
+    position: absolute;
+    top: 18px;
+    right: 12px;
+}
+.header .headright{
+    float: right;
+    padding: 17px 0 0 127px;
+    position: relative;
+}
+.header .headright .login{
+    float: left;
+    font: 14px microsoft yahei;
+    color: #595047;
+}
+.header .headright .login i{
+    width: 13px;
+    height: 12px;
+    background: url("images/icon2.png") no-repeat 0 -17px;
+    position: absolute;
+    top: 22px;
+    left: 111px;
+}
+.header .headright .register{
+    float: left;
+    font: 14px microsoft yahei;
+    color: #595047;
+    padding-left: 28px;
+}
+.header .headright .register i{
+    width: 13px;
+    height: 12px;
+    background: url("images/icon2.png") no-repeat 0 -32px;
+    position: absolute;
+    top: 22px;
+    left: 168px;
+}
+.main{
+    border-top: 2px solid #d9d9d9;
+    margin: 50px 0 0 382px;
+}
+.main .label{
+    padding: 19px 0 0 33px;
+}
+.main .hot{
+    font-size: 12px;
+    width: 36px;
+    height: 24px;
+    border-radius: 15px;
+    background: #e78270;
+    border: none;
+    margin:0 8px 8px 0;
+}
+.main .label .hot::-webkit-input-placeholder {
+    color: white;
+}
+.main .news {
+    font-size: 12px;
+    width: 50px;
+    height: 23px;
+    padding: 0 9px 0 9px;
+    border-radius: 15px;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid #d9d9d9;
+    margin-right: 8px;
+}
+.main .label .news::-webkit-input-placeholder {
+    color: #676b5d;
+}
+.content{
+    width: 739px;
+    margin-top: 32px;
+}
+.vacation{
+    margin-left: 33px;
+    padding-bottom: 120px;
+    border-bottom: dashed 1px #dadada;
+    position: relative;
+}
+.vacaleft{
+    height: 120px;
+    padding: 10px 0 10px 0;
+    float: left;
+}
+.vacation .author{
+    font-size: 11px;
+    color: #798ae4;
+}
+.vacation .time{
+    font-size: 11px;
+    color: #abb2aa;
+}
+.vacation .title{
+    padding: 11px 0 16px 0;
+    font: 18px microsoft yahei;
+    color: #52505b;
+    font-weight: 800;
+}
+.vacation .read{
+    font-size: 11px;
+    color: #abb2aa;
+}
+.vacaleft{
+    float: left;
+}
+.vacaright{
+    float: right;
+    position: absolute;
+    left: 620px;
+}
+.adjust{
+    margin-top: 10px;
+    padding-bottom: 130px;
+}
